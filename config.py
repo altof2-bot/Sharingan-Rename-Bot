@@ -2,18 +2,18 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("7975449308:AAFBQ0wePUijmt0bHB6dJe2T_YU-E2GeAnY", "")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", ""))
-    API_HASH = os.environ.get("API_HASH" "")
+    APP_ID = int(os.environ.get("24777493", ""))
+    API_HASH = os.environ.get("bf5a6381d07f045af4faeb46d7de36e5" "")
     # Update channel for Force Subscribe
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "cartoon_seriesz")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL =", "cartoon_seriesz")
     # log channel
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
+    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "@fr_anime_tv")
     # Get these values from my.telegram.org
     CHAT_ID = os.environ.get("CHAT_ID", "")
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "677682427").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5116530698").split())
     # Banned Unwanted Members..
     BANNED_USERS = []
     # the download location, where the HTTP Server runs
